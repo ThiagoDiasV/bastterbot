@@ -1,0 +1,2 @@
+chrome.maximize_window()
+chrome.find_element_by_link_text('Fazer Login').click()

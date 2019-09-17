@@ -1,0 +1,5 @@
+Rodando o código agora:
+INSERIR GIF7 AQUI
+Conseguimos acessar a área de tecnologia. Agora, para simular um novo tópico, eu preciso capturar o link que abre a janela de novo tópico, a caixa de diálogo que irá receber o título do tópico e a caixa de texto do tópico:
+INSERIR GIF8 AQUI
+Numa breve busca, podemos ver que posso acessar tanto o botão de novo tópico como as caixas de título e corpo de texto por meio de seus ID's, "btnNovoTopico", "titulo-topico" e "novoTopicoEditable". Irei clicar no primeiro e mandar dados para o segundo e terceiro:

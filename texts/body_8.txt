@@ -1,0 +1,7 @@
+INSERIR GIF9 AQUI
+Pronto, já consigo enviar um título para meu tópico e o corpo do texto. Agora vamos enviar um código para o tópico. 
+
+O fluxograma para postagem de um código é criar na feature de código, selecionar a linguagem desejada, colar o código e clicar em "ok":
+INSERIR GIF10 AQUI
+Buscando na árvore do HTML da página, a melhor forma que achei foi clicar no botão da feature de código pelo ID, aguardar o JavaScript abrir a janela de código, mudar a linguagem (que por padrão está HTML/XML para Python, então preciso clicar em cima da caixa de linguagens, clicar em "Python", mandar o código pra caixa de texto e clicar em OK. Todos os elementos eu capturei via XPATH mas a caixa de texto eu capturei usando uma tag HTML, <textarea>:
+

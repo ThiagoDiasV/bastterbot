@@ -1,0 +1,4 @@
+from selenium import webdriver
+
+chrome = webdriver.Chrome()
+chrome.get('h t t p s : / / w w w . b a s t t e r . c o m')

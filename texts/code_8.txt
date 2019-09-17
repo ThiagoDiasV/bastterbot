@@ -1,0 +1,6 @@
+chrome.find_element_by_id('mceu_44-button').click()
+sleep(1)
+chrome.find_element_by_xpath('//button[contains(@id, "mceu_")]/span[text()="HTML/XML"]').click()
+chrome.find_element_by_xpath('//div[contains(@id, "mceu_")]/span[text()="Python"]').click()
+chrome.find_element_by_tag_name('textarea').send_keys('print("Hello Bot!")')
+chrome.find_element_by_xpath('//button[contains(@id, "mceu_")]/span[text()="Ok"]').click() 

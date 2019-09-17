@@ -1,0 +1,3 @@
+sleep(3)
+chrome.find_element_by_xpath('//li[contains(@class, "dropdown")]/a[contains(@href, "vai-la-e-faz")]').click()
+chrome.find_element_by_xpath('//div[contains(@class, "menuExterior")]/a[contains(@href, "tecnologia")]').click() 

@@ -1,0 +1,11 @@
+Rodando o código acima, temos:
+INSERIR GIF5 AQUI
+Claro que deu login inválido, pois não inseri um login válido. Mas caso sejam inseridos login e senha válidos no código, o site irá entrar normalmente. 
+
+Agora, eu preciso navegar até a área de tecnologia. Vou simular uma postagem na área inserindo um código qualquer. 
+
+O link para a área de tecnologia pode ser acessado tanto pelo menu flutuante que aparece ao passar o mouse por cima do link da #VAILÁEFAZ, como clicando na #VAILÁEFAZ e clicando em seguida no link da área de tecnologia:
+INSERIR GIF6 AQUI
+Podemos usar o Selenium para fazer das duas formas. Dá pra simular a passada de mouse por cima do link da #VAILÁEFAZ, inclusive meu primeiro código foi dessa forma mas depois comecei a ter erros fazendo assim, decidi ir pela outra forma que é mais fácil porque perdi a paciência pra tentar descobrir porque da primeira forma não tá dando mais certo hahaha então eu vou abrir primeiro a #VAILÁEFAZ e depois abrir a área de tecnologia.
+
+Para ambas as clicadas, eu vou usar novamente a busca por XPATH. Primeiro, detectei que a #VAILÁEFAZ fica dentro de uma lista, então ela está dentro de uma tag <li>, e essa tag contém um link com "href" que contém o termo "vai-la-e-faz". A área de tecnologia está dentro de uma <div>, esta div tem a classe "menuExterior", uma das filhas dessa div é uma tag de link <a> que contém o atributo "href" com o termo "tecnologia" nele.

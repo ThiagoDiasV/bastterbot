@@ -1,0 +1,5 @@
+Além da lib instalada em meu ambiente virtual, hoje eu vou usar o Chrome como navegador, então precisarei instalar o chromedriver. Usuários de Linux instalam facilmente via apt ou o pacmanager da distro. Usuários de Windows eu recomendo utilizar o gerenciado de programas Chocolatey e instalar por lá (https://chocolatey.org/). Sem o chromedriver instalado em seu sistema o navegador não vai abrir ou vai abrir com erros.
+
+Não vou adentrar muito na parte mais básica de Selenium porque já tivemos tópico sobre a ferramenta aqui (https://bastter.com/mercado/forum/865445/extra14--python--mais-um-pouco-de-web-scrapping--automatizando-a-pesquisa-em-sites-de-pesquisa.aspx), então a parte inicial vai ser mais rápida.
+
+Vou importar a classe webdriver da lib Selenium em nosso programa e mandar um GET para a Bastter.com (lembrem do tópico recente sobre protocolo HTTP https://www.bastter.com/mercado/forum/866915/artigo--introducao-ao-protocolo-http.aspx):
