@@ -1,5 +1,0 @@
-Rodando o código até agora, temos:
-INSERIR GIF11 AQUI
-Portanto, já consigo, com meu bot, autenticar minha sessão no site, navegar até a área de tecnologia, abrir um tópico novo, preencher o corpo do tópico e o título e adicionar códigos. 
-
-O código usado até o momento está assim:
