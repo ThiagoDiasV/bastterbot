@@ -4,7 +4,7 @@ from time import sleep
 from sys import argv
 
 
-class Chrome:
+class Driver:
 
     def __init__(self, driver, url):
         self.driver = driver
@@ -73,7 +73,7 @@ class Chrome:
 
 if __name__ == '__main__':
 
-    chrome = Chrome(webdriver.Chrome(), 'https://www.bastter.com')
+    chrome = Driver(webdriver.Chrome(), 'https://www.bastter.com')
     chrome.login()
     chrome.go_to_tech_page()
     chrome.new_topic_title('Teste')
