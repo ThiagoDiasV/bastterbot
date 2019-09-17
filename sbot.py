@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-# from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 from sys import argv
 from os import path
@@ -52,6 +51,9 @@ class Driver:
     def new_topic_title(self, title):
         # Clica em novo topico
         self.waits(ec.presence_of_element_located, By.ID, 'btnNovoTopico')
+        self.action.move_to_element(
+            self.driver.find_element_by_id('btnNovoTopico')
+            ).perform()
         self.driver.find_element_by_id('btnNovoTopico').click()
 
         # Preenche o título do tópico
