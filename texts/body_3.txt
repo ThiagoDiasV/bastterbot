@@ -1,5 +1,0 @@
-Rodando o código acima, temos:
-ADICIONAR GIF 1 AQUI
-Notem que com as linhas de código feitas até o momento criamos uma instância da classe webdriver.Chrome() de Selenium e mandamos um GET para a URL da Bastter. Nada de novo, tudo já foi feito em tópico anterior. 
-
-Agora iremos realizar a autenticação no site. Iremos adicionar login e senha via Selenium, mas antes eu vou maximizar a janela, pois, devido à característica de a página ser uma página responsiva, há elementos que só aparecem na página se ela estiver no design desktop e elementos que só aparecem no design mobile:
