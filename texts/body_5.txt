@@ -1,8 +1,0 @@
-Rodando o código acima, temos:
-INSERIR GIF4 AQUI
-Percebam que já consigo incluir nome de usuário e senha. Agora preciso clicar no botão "Acessar". O botão não tem ID e olhando as classes dele (Obs: em web, os IDs dos elementos são únicos dentro de nossa página, o que muitas vezes nos ajuda bastante ao criar ferramentas como esta, pois não tem como achar outro elemento de ID igual. Mas as classes podem ser usadas por diversos elementos, então eu evito usar classes, principalmente ao ver que as classes são genéricas como classes usadas por frameworks como BootStrap, de estilização) percebi que todas as classes eram classes genéricas, nenhuma parecia ter sido criada especificamente para identificar aquele botão. Agora, vou precisar localizar o botão de outra forma que é usando XPATH.
-
-XPATH é uma forma de identificar um web elemento de acordo com características que ele tem na árvore do HTML. Eu posso identificá-lo dizendo que a tag pai dele é uma div por exemplo e ele é uma tag <span>, ou um <a>, ou que a div pai tem uma classe "x", etc. Não vou entrar em detalhes de XPATH aqui mas quem tiver interesse em entender mais, vou deixar um link explicando mais o que significa o termo: https://www.guru99.com/xpath-selenium.html. 
-
-Portanto, para localizar o botão de acesso, vou usar o seguinte XPATH: '//button[text() = "Acessar"]'. O que este XPATH quer dizer é que estou procurando algum botão que contém no texto da tag dele o termo "Acessar". Dessa forma, eu consigo localizar nosso botão de acesso e clicar nele, conseguindo logar no site:
-
