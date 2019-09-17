@@ -1,5 +1,0 @@
-sleep(3)
-chrome.find_element_by_id('btnNovoTopico').click()
-chrome.find_element_by_id('titulo-topico').send_keys('Título teste')
-textarea = chrome.find_element_by_id('novoTopicoEditable')
-textarea.send_keys('Corpo texto teste')
