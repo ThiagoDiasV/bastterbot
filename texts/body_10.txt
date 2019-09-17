@@ -1,3 +1,0 @@
-Com certeza não é o código mais funcional do mundo, esses sleep no meio dele podem dar problema se a conexão estiver lenta, etc. Quem tiver interesse num código um pouco mais funcional (o que usei para postar este tópico aqui), pode acessar o repositório que criei no GitHub pra ver o código completo: https://github.com/ThiagoDiasV/bastterbot
-
-E nem sei se vou usar pra postar os tópicos, a forma que criei de conjugar texto com código não tá a mais funcional do mundo ainda mas já quebra um galho. Pelo menos foi divertido criar este bot. 
