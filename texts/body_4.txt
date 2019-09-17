@@ -1,9 +1,0 @@
-Rodando o código acima, nós maximizamos nossa janela, localizamos o botão de login do site, por meio do texto que está contido dentro do link de login, que é "Fazer Login", e clicamos nele.
-INSERIR GIF2 AQUI
-Entretanto, o código acima deu um erro rodando aqui, e ao rodar a segunda vez não deu erro. O que acontece é que de vez em quando o Selenium não espera os elementos da página carregarem completamente e já vai procurando-os loucamente. Se ele não acha, o Python lança um erro. Existe forma mais elegante de fazer o Selenium esperar que é usando funções internas dele, mas pra não alongar o tópico, vou usar o velho sleep. Quem tiver curiosidade de como fazer o Selenium esperar sem ser usando o sleep, ao final do tópico vou postar o código que usei pra postar este tópico e lá eu usei em alguns momentos a espera própria do Selenium. 
-
-Até o momento, vimos uma das formas de achar um web elemento na página usando Selenium que é por meio do texto do link. No nosso caso, nós tivemos que clicar no botão "Fazer Login" e eu localizei esse botão por meio do texto do botão e cliquei nele.
-
-Agora, precisamos enviar nosso login e nossa senha. Dando um inspect na página, vi que a caixa de texto de login tem id "login-email" e a caixa da senha tem o id "login-password":
-INSERIR GIF3 AQUI
-Então, basta eu localizar esses web elementos por ID novamente e enviar texto para eles.
